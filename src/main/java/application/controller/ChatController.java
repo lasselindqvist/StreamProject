@@ -17,6 +17,7 @@ import dto.Comment;
 @Controller
 public class ChatController {
 
+	@SuppressWarnings("unchecked")
 	@RequestMapping("/chat")
 	public String channel(@RequestParam(value = "channel", required = false, defaultValue = "Lobby") String channel,
 			@RequestParam(value = "user", required = false, defaultValue = "Anon") String user, Model model) {

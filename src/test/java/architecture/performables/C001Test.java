@@ -11,9 +11,9 @@ public class C001Test {
 	@Test
 	public void C001Test1() {
 		WebSocketComment comment = new WebSocketComment();
-		comment.setChannel("kanava");
+		comment.setChannel("channel");
 		comment.setUser("username");
-		comment.setContent("sisältö");
+		comment.setContent("contents");
 
 		C001 c001 = new C001();
 		PerformableParameters parameters = new PerformableParameters();

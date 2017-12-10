@@ -3,7 +3,7 @@ Implementation-Title: StreamProject
 Implementation-Version: 1.0
 Built-By: Admin
 Implementation-Vendor-Id: StreamProject
-Build-Jdk: 1.8.0_151
+Build-Jdk: 1.8.0_152
 Implementation-URL: http://projects.spring.io/spring-boot/StreamProjec
  t/
 Created-By: Maven Integration for Eclipse
