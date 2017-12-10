@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: database.DatabaseTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.01 sec <<< FAILURE! - in database.DatabaseTest
+testDatabase(database.DatabaseTest)  Time elapsed: 0.01 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at database.HibernateUtil.getSession(HibernateUtil.java:38)
+	at database.DatabaseTest.testDatabase(DatabaseTest.java:17)
+

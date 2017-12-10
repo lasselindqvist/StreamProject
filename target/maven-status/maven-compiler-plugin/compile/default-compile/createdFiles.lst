@@ -1,0 +1,14 @@
+architecture\PerformableParameters.class
+dto\Channel.class
+architecture\IPerformable.class
+application\Application.class
+application\controller\GreetingController.class
+dto\Identifiable.class
+application\controller\ChatController.class
+application\websocket\WebSocketComment.class
+application\websocket\WebSocketConfig.class
+database\HibernateUtil.class
+util\Util.class
+architecture\PerformService.class
+dto\Comment.class
+architecture\PerformableReturnValue.class
